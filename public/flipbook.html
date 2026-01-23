@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mekong TESOL 2026 - Hồ sơ mời tài trợ</title>
+    <link rel="stylesheet" href="assets/flipbook.css">
+</head>
+<body>
+    <div class="flipbook-container">
+        <!-- Header Controls -->
+        <header class="flipbook-header">
+            <div class="controls-left">
+                <button id="toc-toggle" class="btn btn-secondary">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="3" y1="12" x2="21" y2="12"></line>
+                        <line x1="3" y1="6" x2="21" y2="6"></line>
+                        <line x1="3" y1="18" x2="21" y2="18"></line>
+                    </svg>
+                    Mục lục
+                </button>
+            </div>
+            
+            <div class="controls-center">
+                <div class="page-indicator">
+                    <span id="current-page">1</span> / <span id="total-pages">15</span>
+                </div>
+                <div class="progress-bar">
+                    <div id="progress-fill" class="progress-fill" style="width: 6.67%"></div>
+                </div>
+            </div>
+
+            <div class="controls-right"></div>
+        </header>
+
+        <!-- TOC Sidebar -->
+        <aside id="toc-sidebar" class="toc-sidebar">
+            <div class="toc-header">
+                <h3>Mục lục</h3>
+                <button id="toc-close" class="btn-close">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <line x1="18" y1="6" x2="6" y2="18"></line>
+                        <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                </button>
+            </div>
+            <nav class="toc-nav">
+                <a href="#" data-page="1" class="toc-item active">Cover</a>
+                <a href="#" data-page="2" class="toc-item">Lời mời tài trợ</a>
+                <a href="#" data-page="4" class="toc-item">Thông tin hội nghị</a>
+                <a href="#" data-page="5" class="toc-item">Timeline</a>
+                <a href="#" data-page="6" class="toc-item">Diễn giả chính</a>
+                <a href="#" data-page="7" class="toc-item">Chương trình chi tiết</a>
+                <a href="#" data-page="8" class="toc-item">Ban tổ chức</a>
+                <a href="#" data-page="9" class="toc-item">Đơn vị tổ chức</a>
+                <a href="#" data-page="10" class="toc-item">Cộng đồng Mekong TESOL</a>
+                <a href="#" data-page="11" class="toc-item">Lịch sử phát triển</a>
+                <a href="#" data-page="12" class="toc-item">Kế hoạch tài trợ</a>
+                <a href="#" data-page="14" class="toc-item">Liên hệ & Cảm ơn</a>
+                <a href="#" data-page="15" class="toc-item">Back Cover</a>
+            </nav>
+        </aside>
+
+        <!-- Main Flipbook Area -->
+        <main class="flipbook-main">
+            <div class="page-container">
+                <div id="page-content" class="page">
+                    <!-- Page content will be dynamically loaded here -->
+                </div>
+            </div>
+        </main>
+
+        <!-- Print container (populated by JS) -->
+        <div id="print-root" class="print-root" aria-hidden="true"></div>
+
+        <!-- Bottom Controls (primary navigation) -->
+        <footer class="bottom-bar">
+            <button id="prev-btn" class="btn btn-primary" disabled aria-label="Trang trước">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+                Trước
+            </button>
+
+            <button id="next-btn" class="btn btn-primary" aria-label="Trang sau">
+                Sau
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+            </button>
+
+            <div class="bottom-spacer"></div>
+
+            <button id="print-btn" class="btn btn-secondary">Tải PDF</button>
+        </footer>
+    </div>
+
+    <script src="assets/flipbook.js"></script>
+</body>
+</html>

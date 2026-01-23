@@ -1,0 +1,289 @@
+/* ========================================
+   PRINT STYLES FOR PREMIUM UI PDF EXPORT
+   ======================================== */
+
+@media print {
+    /* Reset print margins */
+    @page {
+        margin: 1cm;
+        size: A4;
+    }
+    
+    /* Hide unnecessary elements */
+    .mobile-menu,
+    .mobile-menu-toggle,
+    .gallery-section,
+    .footer,
+    .sponsor-finder-section,
+    .audience-section {
+        display: none !important;
+    }
+    
+    /* Adjust layout for print */
+    body {
+        font-size: 11pt;
+        line-height: 1.3;
+        color: #000;
+        background: #fff;
+    }
+    
+    .container-custom {
+        max-width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    
+    /* Section adjustments */
+    .section-padding {
+        padding: 1em 0 !important;
+        page-break-inside: avoid;
+    }
+    
+    section {
+        page-break-inside: avoid;
+        margin-bottom: 1.5em;
+    }
+    
+    /* Typography for print */
+    .section-title {
+        font-size: 16pt !important;
+        color: #000 !important;
+        page-break-after: avoid;
+        margin-bottom: 0.8em !important;
+    }
+    
+    .section-subtitle {
+        font-size: 12pt !important;
+        color: #333 !important;
+        margin-bottom: 1em !important;
+    }
+    
+    h3 {
+        font-size: 13pt !important;
+        color: #000 !important;
+        page-break-after: avoid;
+    }
+    
+    h4 {
+        font-size: 12pt !important;
+        color: #000 !important;
+    }
+    
+    p {
+        font-size: 11pt !important;
+        line-height: 1.3 !important;
+        color: #000 !important;
+    }
+    
+    /* Cards and grids - make them linear */
+    .grid {
+        display: block !important;
+    }
+    
+    .card-premium {
+        display: block !important;
+        margin-bottom: 1em !important;
+        border: 1px solid #ccc !important;
+        page-break-inside: avoid;
+        padding: 0.8em !important;
+        background: #fff !important;
+        box-shadow: none !important;
+    }
+    
+    /* Hero section */
+    .hero {
+        padding: 2em 0 !important;
+    }
+    
+    .hero-title {
+        font-size: 18pt !important;
+        color: #000 !important;
+    }
+    
+    .hero-subtitle {
+        font-size: 13pt !important;
+        color: #333 !important;
+    }
+    
+    /* Stats */
+    .stats-grid {
+        display: flex !important;
+        justify-content: space-between !important;
+        gap: 1em !important;
+    }
+    
+    .stat-card {
+        flex: 1 !important;
+        text-align: center !important;
+        padding: 0.5em !important;
+        border: 1px solid #ddd !important;
+    }
+    
+    .stat-number {
+        font-size: 14pt !important;
+        font-weight: bold !important;
+        color: #000 !important;
+    }
+    
+    .stat-label {
+        font-size: 10pt !important;
+        color: #333 !important;
+    }
+    
+    /* Timeline */
+    .timeline-item {
+        display: block !important;
+        margin-bottom: 1em !important;
+        padding: 0.8em !important;
+        border-left: 2px solid #333 !important;
+        background: #f9f9f9 !important;
+    }
+    
+    /* Why sponsor cards */
+    .why-sponsor-grid .card-premium {
+        display: inline-block !important;
+        width: 48% !important;
+        margin-right: 2% !important;
+        vertical-align: top !important;
+    }
+    
+    /* Milestones */
+    .milestone-item {
+        display: inline-block !important;
+        width: 18% !important;
+        margin-right: 2% !important;
+        text-align: center !important;
+        vertical-align: top !important;
+    }
+    
+    /* Organizers team */
+    .organizers-grid .card-premium {
+        display: inline-block !important;
+        width: 18% !important;
+        margin-right: 2% !important;
+        text-align: center !important;
+        vertical-align: top !important;
+    }
+    
+    /* Gallery */
+    .gallery-grid .card-premium {
+        display: inline-block !important;
+        width: 30% !important;
+        margin-right: 3% !important;
+        vertical-align: top !important;
+    }
+    
+    /* Contact section */
+    .contact-grid {
+        display: block !important;
+    }
+    
+    .contact-grid .card-premium {
+        width: 100% !important;
+        margin-bottom: 1em !important;
+    }
+    
+    /* Buttons - hide or make text-only */
+    .btn {
+        display: none !important;
+    }
+    
+    /* Links - make them visible */
+    a {
+        color: #000 !important;
+        text-decoration: underline !important;
+    }
+    
+    a[href^="mailto:"]::after {
+        content: " (" attr(href) ")";
+        font-size: 9pt;
+        color: #666;
+    }
+    
+    a[href^="tel:"]::after {
+        content: " (" attr(href) ")";
+        font-size: 9pt;
+        color: #666;
+    }
+    
+    /* Badges */
+    .badge-primary,
+    .badge-accent,
+    .badge-gold {
+        background: #f0f0f0 !important;
+        color: #000 !important;
+        border: 1px solid #ccc !important;
+        padding: 0.2em 0.5em !important;
+        font-size: 9pt !important;
+    }
+    
+    /* Remove gradients and fancy effects */
+    .bg-gradient-to-br,
+    .bg-gradient-to-r {
+        background: #fff !important;
+    }
+    
+    .shadow-lg,
+    .shadow-sm,
+    .shadow-md {
+        box-shadow: none !important;
+    }
+    
+    .backdrop-blur {
+        backdrop-filter: none !important;
+    }
+    
+    /* Ensure proper spacing */
+    .mb-6 { margin-bottom: 1em !important; }
+    .mb-8 { margin-bottom: 1.2em !important; }
+    .mb-12 { margin-bottom: 1.5em !important; }
+    .mb-16 { margin-bottom: 2em !important; }
+    
+    .gap-6 { gap: 0.5em !important; }
+    .gap-8 { gap: 0.8em !important; }
+    .gap-12 { gap: 1em !important; }
+    
+    /* Hide decorative elements */
+    .text-6xl,
+    .text-4xl,
+    .text-5xl {
+        font-size: 24pt !important;
+    }
+    
+    /* Footer for print */
+    .footer-print {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        text-align: center;
+        font-size: 9pt;
+        color: #666;
+        border-top: 1px solid #ccc;
+        padding: 0.5em 0;
+    }
+}
+
+/* ========================================
+   CONTINUOUS PAGE FORMAT (no page breaks)
+   ======================================== */
+
+@media continuous {
+    @page {
+        margin: 1cm;
+        size: A4;
+    }
+    
+    section {
+        page-break-inside: auto !important;
+        page-break-after: auto !important;
+    }
+    
+    .card-premium {
+        page-break-inside: auto !important;
+    }
+    
+    .timeline-item {
+        page-break-inside: auto !important;
+    }
+}

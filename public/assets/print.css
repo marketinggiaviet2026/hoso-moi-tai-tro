@@ -1,0 +1,185 @@
+/* ========================================
+   PRINT STYLES FOR PDF EXPORT
+   ======================================== */
+
+@media print {
+    /* Reset print margins */
+    @page {
+        margin: 1cm;
+        size: A4;
+    }
+    
+    /* Hide unnecessary elements */
+    .top-bar,
+    .mobile-menu,
+    .mobile-menu-toggle,
+    .gallery-cta,
+    .gallery-section,
+    .footer,
+    .contact-buttons,
+    .sponsor-finder-section,
+    .audience-section {
+        display: none !important;
+    }
+    
+    /* Adjust layout for print */
+    body {
+        font-size: 12pt;
+        line-height: 1.4;
+        color: #000;
+        background: #fff;
+    }
+    
+    .container {
+        max-width: 100%;
+        padding: 0;
+    }
+    
+    /* Ensure sections don't break awkwardly */
+    section {
+        page-break-inside: avoid;
+        margin-bottom: 2em;
+    }
+    
+    /* Adjust headers */
+    h1 {
+        font-size: 20pt;
+        page-break-after: avoid;
+    }
+    
+    h2 {
+        font-size: 16pt;
+        page-break-after: avoid;
+        margin-top: 2em;
+    }
+    
+    h3 {
+        font-size: 14pt;
+        page-break-after: avoid;
+    }
+    
+    /* Cards and grids */
+    .cards-grid,
+    .organizers-grid,
+    .about-orgs-grid,
+    .milestones-grid {
+        display: block;
+    }
+    
+    .card,
+    .organizer-card,
+    .about-org-card,
+    .milestone-item {
+        display: block;
+        margin-bottom: 1em;
+        border: 1px solid #ccc;
+        page-break-inside: avoid;
+        padding: 1em;
+    }
+    
+    /* Contact info */
+    .contact-info-item {
+        display: block;
+        margin-bottom: 0.5em;
+    }
+    
+    /* Remove backgrounds and shadows */
+    * {
+        box-shadow: none !important;
+        background: #fff !important;
+        border-color: #ccc !important;
+    }
+    
+    /* Links */
+    a {
+        color: #000 !important;
+        text-decoration: underline;
+    }
+    
+    a[href^="tel"]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+    a[href^="mailto"]::after {
+        content: " (" attr(href) ")";
+        font-size: 0.9em;
+        color: #666;
+    }
+    
+    /* Tables */
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 1em 0;
+    }
+    
+    th, td {
+        border: 1px solid #ccc;
+        padding: 0.5em;
+        text-align: left;
+    }
+    
+    /* Hide buttons and interactive elements */
+    .btn,
+    button,
+    input,
+    select,
+    .tab-buttons {
+        display: none !important;
+    }
+    
+    /* Show tab content */
+    .tab-content {
+        display: block !important;
+    }
+    
+    /* Images */
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    /* Special print adjustments */
+    .hero-cta,
+    .contact-cta {
+        display: none;
+    }
+    
+    .hero-content {
+        text-align: center;
+    }
+    
+    .pricing-cards {
+        display: block;
+    }
+    
+    .pricing-card {
+        display: block;
+        margin-bottom: 2em;
+        border: 1px solid #ccc;
+        padding: 1em;
+    }
+    
+    /* Ensure proper spacing */
+    p, ul, ol {
+        margin-bottom: 0.5em;
+    }
+    
+    /* Page breaks for major sections */
+    .hero-section,
+    .why-sponsor,
+    .community-section,
+    .milestones-section,
+    .timeline-section,
+    .about-organizers-section,
+    .organizers-section,
+    .contact-section {
+        page-break-after: always;
+    }
+    
+    .contact-section {
+        page-break-after: avoid;
+    }
+}

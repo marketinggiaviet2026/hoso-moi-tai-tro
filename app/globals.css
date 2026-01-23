@@ -1,0 +1,113 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-size: 16px;
+  }
+  
+  body {
+    @apply text-primary bg-white antialiased;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.7;
+    letter-spacing: -0.011em;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-titleclr font-bold;
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+  }
+  
+  h1 {
+    @apply text-4xl md:text-5xl lg:text-6xl;
+    font-weight: 800;
+  }
+  
+  h2 {
+    @apply text-3xl md:text-4xl lg:text-5xl;
+    font-weight: 700;
+  }
+  
+  h3 {
+    @apply text-xl md:text-2xl lg:text-3xl;
+    font-weight: 600;
+  }
+  
+  h4 {
+    @apply text-lg md:text-xl;
+    font-weight: 600;
+  }
+  
+  p {
+    @apply leading-relaxed;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 px-8 py-4 font-semibold text-center cursor-pointer transition-all duration-300 whitespace-nowrap rounded-lg;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-br from-gold via-gold-light to-gold text-primary border-0 shadow-lg hover:shadow-2xl hover:-translate-y-1 hover:scale-[1.02] active:scale-[0.98];
+  }
+  
+  .btn-secondary {
+    @apply bg-titleclr text-white border-2 border-titleclr hover:bg-primary hover:border-primary shadow-md hover:shadow-lg;
+  }
+  
+  .btn-outline {
+    @apply bg-white text-titleclr border-2 border-mt-gray-border hover:bg-titleclr/5 hover:border-titleclr shadow-sm hover:shadow-md;
+  }
+  
+  .btn-large {
+    @apply px-10 py-5 text-lg;
+  }
+  
+  .btn-block {
+    @apply w-full;
+  }
+  
+  .container-custom {
+    @apply max-w-container mx-auto px-6 md:px-8 lg:px-12;
+  }
+  
+  .card {
+    @apply bg-white border border-mt-gray-border/60 p-8 md:p-10 rounded-2xl transition-all duration-500 hover:shadow-2xl hover:border-titleclr/40 hover:-translate-y-1 backdrop-blur-sm;
+  }
+  
+  .card-premium {
+    @apply card bg-gradient-to-br from-white via-white to-titleclr/5 border-2;
+  }
+  
+  .section-padding {
+    @apply py-20 md:py-28 lg:py-32;
+  }
+  
+  .section-title {
+    @apply text-center mb-6 bg-gradient-to-r from-titleclr via-mt-purple-brand to-titleclr bg-clip-text text-transparent;
+  }
+  
+  .section-subtitle {
+    @apply text-center text-lg md:text-xl text-primary/70 mb-16 max-w-3xl mx-auto leading-relaxed;
+  }
+  
+  .badge {
+    @apply inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-semibold;
+  }
+  
+  .badge-primary {
+    @apply badge bg-titleclr/10 text-titleclr border border-titleclr/20;
+  }
+  
+  .badge-accent {
+    @apply badge bg-accent/10 text-accent border border-accent/20;
+  }
+  
+  .badge-gold {
+    @apply badge bg-gradient-to-r from-gold/20 to-gold-light/20 text-primary border border-gold/30;
+  }
+}

@@ -1,0 +1,330 @@
+/* ========================================
+   PRINT COMPACT PRESET - A4 OPTIMIZED
+   ======================================== */
+
+/* ===== PRINT COMPACT PRESET ===== */
+@page { 
+  size: A4; 
+  margin: 10mm; 
+}
+
+@media print {
+  /* 1) Base typography nhỏ + chặt hơn */
+  html { 
+    font-size: 9.5pt !important; 
+  }
+  
+  body {
+    font-family: 'DejaVu Sans', 'Arial', sans-serif !important;
+    line-height: 1.25 !important;
+    letter-spacing: 0 !important;
+    color: #000 !important;
+    background: #fff !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* 2) Giảm khoảng trắng mặc định */
+  h1, h2, h3, p, ul, ol { 
+    margin: 0 0 3mm 0 !important; 
+  }
+  
+  h1 { 
+    font-size: 18pt !important; 
+    line-height: 1.1 !important; 
+    margin-bottom: 4mm !important; 
+    font-weight: bold !important;
+    color: #000 !important;
+  }
+  
+  h2 { 
+    font-size: 13pt !important; 
+    line-height: 1.15 !important; 
+    margin-bottom: 3mm !important; 
+    font-weight: bold !important;
+    color: #000 !important;
+  }
+  
+  h3 { 
+    font-size: 11pt !important; 
+    line-height: 1.2 !important; 
+    margin-bottom: 2.5mm !important; 
+    font-weight: bold !important;
+    color: #000 !important;
+  }
+  
+  p, li { 
+    font-size: 9.5pt !important; 
+    line-height: 1.25 !important;
+    margin-bottom: 2mm !important;
+    text-align: justify !important;
+  }
+
+  /* 3) "Box/card" nhỏ lại: padding, radius, shadow */
+  .card-premium, .card, .box, .panel, .section-card {
+    padding: 4mm 5mm !important;   /* giảm mạnh */
+    border-radius: 3mm !important; /* bớt "mập" */
+    box-shadow: none !important;   /* PDF sạch hơn */
+    border: 1px solid #333 !important;
+    background: #fff !important;
+    margin-bottom: 3mm !important;
+    page-break-inside: avoid;
+  }
+
+  /* 4) Giảm spacing toàn layout */
+  .container-custom, .container, .wrap, .page {
+    max-width: 180mm !important;   /* tránh bị co scale vì quá rộng */
+    margin: 0 auto !important;
+    padding: 0 !important;
+  }
+  
+  section, .section, .section-padding {
+    padding: 6mm 0 !important;     /* nếu đang 24–48px thì sẽ gọn hẳn */
+    margin-bottom: 4mm !important;
+    page-break-inside: avoid;
+  }
+  
+  .grid, .stack, .cols, .grid-cols-1, .grid-cols-2, .grid-cols-3, .grid-cols-4, .grid-cols-5 {
+    gap: 4mm !important;           /* giảm gap giữa các box */
+    display: block !important;
+  }
+
+  /* 5) Những thứ hay làm box "to bất thường" */
+  [style*="min-height"], .min-h-screen, .h-screen { 
+    min-height: auto !important; 
+    height: auto !important; 
+  }
+  
+  .no-print, nav, header.sticky, .sticky, .floating, .cta, .btn { 
+    display: none !important; 
+  }
+
+  /* 6) Bảng & ảnh đỡ "phồng" */
+  table { 
+    font-size: 9pt !important; 
+  }
+  
+  img { 
+    max-width: 100% !important; 
+    height: auto !important; 
+  }
+
+  /* Compact specific elements */
+  .hero {
+    padding: 8mm 0 !important;
+    text-align: center !important;
+  }
+
+  .hero-title {
+    font-size: 16pt !important;
+    margin-bottom: 3mm !important;
+  }
+
+  .hero-subtitle {
+    font-size: 10pt !important;
+    font-style: italic !important;
+    margin-bottom: 5mm !important;
+  }
+
+  .stats-grid {
+    display: flex !important;
+    justify-content: space-between !important;
+    gap: 3mm !important;
+    margin: 5mm 0 !important;
+  }
+
+  .stat-card {
+    flex: 1 !important;
+    text-align: center !important;
+    padding: 3mm !important;
+    border: 1px solid #333 !important;
+    background: #f5f5f5 !important;
+  }
+
+  .stat-number {
+    font-size: 12pt !important;
+    font-weight: bold !important;
+    display: block !important;
+  }
+
+  .stat-label {
+    font-size: 8pt !important;
+    display: block !important;
+    margin-top: 1mm !important;
+  }
+
+  /* Two-column layouts for compact */
+  .why-sponsor-grid .card-premium,
+  .audience-grid .card-premium,
+  .keynote-grid .card-premium,
+  .organizers-grid .card-premium {
+    display: inline-block !important;
+    width: 48% !important;
+    margin-right: 2% !important;
+    margin-bottom: 3mm !important;
+    vertical-align: top !important;
+  }
+
+  /* Three-column layouts */
+  .community-stats .card-premium,
+  .gallery-grid .card-premium {
+    display: inline-block !important;
+    width: 31% !important;
+    margin-right: 2% !important;
+    margin-bottom: 3mm !important;
+    vertical-align: top !important;
+    text-align: center !important;
+  }
+
+  /* Timeline compact */
+  .timeline-item {
+    display: block !important;
+    margin-bottom: 3mm !important;
+    padding: 3mm !important;
+    border-left: 2px solid #000 !important;
+    background: #f5f5f5 !important;
+  }
+
+  .timeline-year {
+    font-weight: bold !important;
+    font-size: 10pt !important;
+  }
+
+  /* Agenda compact */
+  .agenda-item {
+    display: block !important;
+    margin-bottom: 2mm !important;
+    padding: 2mm !important;
+    border-bottom: 1px solid #ccc !important;
+  }
+
+  .agenda-time {
+    font-weight: bold !important;
+    display: inline-block !important;
+    width: 25mm !important;
+    font-size: 9pt !important;
+  }
+
+  /* Contact compact */
+  .contact-grid .card-premium {
+    width: 100% !important;
+    margin-bottom: 3mm !important;
+  }
+
+  /* Links and buttons compact */
+  a {
+    color: #000 !important;
+    text-decoration: underline !important;
+    font-size: 9pt !important;
+  }
+
+  .btn {
+    display: inline !important;
+    background: none !important;
+    border: none !important;
+    padding: 0 !important;
+    color: #000 !important;
+    text-decoration: underline !important;
+    font-size: 9pt !important;
+  }
+
+  /* Badges compact */
+  .badge-primary, .badge-accent, .badge-gold {
+    background: none !important;
+    color: #000 !important;
+    border: none !important;
+    padding: 0 !important;
+    font-size: 8pt !important;
+    font-style: italic !important;
+    text-decoration: underline !important;
+  }
+
+  /* Remove all visual effects */
+  .bg-gradient-to-br, .bg-gradient-to-r, .shadow-lg, .shadow-sm, .shadow-md, .backdrop-blur, .rounded-2xl, .rounded-xl, .group-hover\:scale-110, .transition-transform {
+    background: #fff !important;
+    box-shadow: none !important;
+    backdrop-filter: none !important;
+    border-radius: 0 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+
+  /* Icons compact */
+  .text-6xl, .text-5xl, .text-4xl, .text-3xl {
+    font-size: 12pt !important;
+    margin-bottom: 2mm !important;
+    display: block !important;
+    text-align: center !important;
+  }
+
+  /* Footer compact */
+  .footer {
+    padding: 5mm 0 !important;
+    text-align: center !important;
+    border-top: 1px solid #000 !important;
+  }
+
+  /* Table of contents compact */
+  .toc {
+    margin-bottom: 5mm !important;
+  }
+
+  .toc h2 {
+    font-size: 12pt !important;
+    margin-bottom: 3mm !important;
+    border-bottom: 1px solid #000 !important;
+  }
+
+  .toc ul {
+    list-style: none !important;
+    padding-left: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .toc li {
+    margin-bottom: 1mm !important;
+    font-size: 9pt !important;
+  }
+
+  .toc a {
+    color: #000 !important;
+    text-decoration: underline !important;
+  }
+
+  /* Hide unnecessary elements */
+  .mobile-menu, .mobile-menu-toggle, .gallery-section, .sponsor-finder-section {
+    display: none !important;
+  }
+
+  /* Ensure no overflow */
+  * {
+    overflow: visible !important;
+    max-width: 100% !important;
+  }
+
+  /* Force black text */
+  * {
+    color: #000 !important;
+  }
+
+  .section-title, h1, h2, h3, h4 {
+    color: #000 !important;
+  }
+
+  /* Compact spacing overrides */
+  .mb-6 { margin-bottom: 3mm !important; }
+  .mb-8 { margin-bottom: 4mm !important; }
+  .mb-12 { margin-bottom: 5mm !important; }
+  .mb-16 { margin-bottom: 6mm !important; }
+
+  .gap-6 { gap: 3mm !important; }
+  .gap-8 { gap: 4mm !important; }
+  .gap-12 { gap: 5mm !important; }
+
+  /* Print optimization for Chrome */
+  @media print and (color) {
+    .card-premium {
+      border-color: #000 !important;
+    }
+  }
+}

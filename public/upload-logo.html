@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload Logo University of Wollongong</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .upload-area {
+            border: 2px dashed #ccc;
+            border-radius: 10px;
+            padding: 40px;
+            text-align: center;
+            background: white;
+            margin: 20px 0;
+        }
+        .upload-area:hover {
+            border-color: #007bff;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 10px;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        .preview {
+            margin: 20px 0;
+            text-align: center;
+        }
+        .preview img {
+            max-width: 200px;
+            max-height: 100px;
+            object-contain;
+            border: 1px solid #ddd;
+            padding: 10px;
+            background: white;
+        }
+        .instructions {
+            background: #e7f3ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Logo University of Wollongong</h1>
+    
+    <div class="instructions">
+        <h3>Hướng dẫn:</h3>
+        <ul>
+            <li>Vui lòng upload logo University of Wollongong ở định dạng PNG hoặc JPG</li>
+            <li>Kích thước đề xuất: chiều cao 48px, chiều rộng tối đa 120px</li>
+            <li>Logo nên có nền trong suốt (PNG) hoặc nền trắng</li>
+            <li>Sau khi upload, file sẽ được lưu với tên: logo-wollongong.png</li>
+        </ul>
+    </div>
+
+    <div class="upload-area" id="uploadArea">
+        <p>Kéo và thả file logo vào đây hoặc click để chọn file</p>
+        <input type="file" id="fileInput" accept="image/*" style="display: none;">
+        <button onclick="document.getElementById('fileInput').click()">Chọn file logo</button>
+    </div>
+
+    <div class="preview" id="preview" style="display: none;">
+        <h3>Xem trước:</h3>
+        <img id="previewImage" alt="Preview">
+        <br><br>
+        <button onclick="uploadLogo()">Upload và lưu logo</button>
+    </div>
+
+    <div id="result" style="display: none;">
+        <h3>Upload thành công!</h3>
+        <p>Logo đã được lưu tại: /images/logo-wollongong.png</p>
+        <p>Bạn có thể đóng trang này và refresh trang chính để xem logo mới.</p>
+    </div>
+
+    <script>
+        const uploadArea = document.getElementById('uploadArea');
+        const fileInput = document.getElementById('fileInput');
+        const preview = document.getElementById('preview');
+        const previewImage = document.getElementById('previewImage');
+        const result = document.getElementById('result');
+
+        // Drag and drop
+        uploadArea.addEventListener('dragover', (e) => {
+            e.preventDefault();
+            uploadArea.style.borderColor = '#007bff';
+        });
+
+        uploadArea.addEventListener('dragleave', () => {
+            uploadArea.style.borderColor = '#ccc';
+        });
+
+        uploadArea.addEventListener('drop', (e) => {
+            e.preventDefault();
+            uploadArea.style.borderColor = '#ccc';
+            handleFiles(e.dataTransfer.files);
+        });
+
+        fileInput.addEventListener('change', (e) => {
+            handleFiles(e.target.files);
+        });
+
+        function handleFiles(files) {
+            if (files.length > 0) {
+                const file = files[0];
+                if (file.type.startsWith('image/')) {
+                    const reader = new FileReader();
+                    reader.onload = (e) => {
+                        previewImage.src = e.target.result;
+                        preview.style.display = 'block';
+                    };
+                    reader.readAsDataURL(file);
+                } else {
+                    alert('Vui lòng chọn file hình ảnh!');
+                }
+            }
+        }
+
+        function uploadLogo() {
+            // Trong môi trường thực tế, đây là nơi bạn sẽ gửi file đến server
+            // Hiện tại chúng ta chỉ mô phỏng việc upload thành công
+            result.style.display = 'block';
+            preview.style.display = 'none';
+            
+            // Lưu thông tin về file đã upload (trong thực tế sẽ gửi đến server)
+            const fileName = 'logo-wollongong.png';
+            console.log('Logo uploaded:', fileName);
+            
+            // Bạn có thể thêm code để thực sự upload file ở đây
+            alert('Để hoàn tất việc upload, vui lòng copy file logo vào thư mục: /Users/vobac/Downloads/HoSoMoiTaiTro_Package/public/images/ với tên logo-wollongong.png');
+        }
+    </script>
+</body>
+</html>
