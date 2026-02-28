@@ -27,10 +27,10 @@
 ### Keynote speakers
 - Src: `/images/keynote/rob-waring.jpg`
   - Alt: `GS. Rob Waring`
-- Src: `/images/keynote/ika-lestari-damayanti.jpg`
+- Src: `/images/keynote/ika-lestari-damayanti.png`
   - Alt: `GS. Ika Lestari Damayanti`
-- Src: `/images/keynote/pham-thi-hong-nhung.jpg`
-  - Alt: `PGS.TS Phạm Thị Hồng Nhung`
+- Src: `/images/keynote/nguyen-thu-le-hang.jpg`
+  - Alt: `Tiến sĩ Nguyễn Thu Lệ Hằng`
 - Src: `/images/keynote/relo-speaker.jpg`
   - Alt: `Speaker của RELO`
 
@@ -160,7 +160,6 @@
 - `31/03/2026` — `Xác nhận báo cáo`
   - Tooltip: `Diễn giả xác nhận báo cáo để Ban Tổ chức sắp xếp chương trình.`
 - `02/04/2026 – 20/06/2026` — `Mở đăng ký`
-  - Tooltip: `Early bird: 02/04/2026 - 30/05/2026`
   - Tooltip: `Final registration: 31/05/2026 - 20/06/2026`
 - `01/07/2026` — `Công bố CT`
   - Tooltip: `Thông báo chương trình chính thức của hội nghị.`
@@ -301,10 +300,10 @@
 - Title: `Diễn giả chính (Keynote Speakers)`
 - Sub: `Danh sách dự kiến`
 
-- `GS. Rob Waring` — `Notre Dame Seishin Women’s University, Japan`
+- `GS. Rob Waring` — `Notre Dame Seishin Women's University, Japan`
 - `GS. Ika Lestari Damayanti` — `Universitas Pendidikan Indonesia, Indonesia`
 - `PGS.TS Phạm Thị Hồng Nhung` — `Hiệu trưởng ĐH Ngoại ngữ Huế`
-- `Speaker của RELO` — `United States Department of State`
+- `TS. Erika Matruglio` — `Trường Sư phạm | Khoa Khoa học Xã hội – Đại học Wollongong`
 
 ---
 
@@ -323,7 +322,7 @@
 **Nơi hiển thị**: gallery carousel
 
 - Title: `Hình ảnh Mekong TESOL các kỳ trước`
-- Sub: `Khoảnh khắc đáng nhớ từ kỳ hội nghị Mekong TESOL lần 3 năm 2023`
+- Sub: `Khoảnh khắc đáng nhớ từ kỳ hội nghị Mekong TESOL năm 2023`
 - Nút điều hướng (desktop):
   - `Ảnh trước`
   - `Ảnh tiếp theo`
@@ -382,8 +381,8 @@
 
 ### Copyright
 - `© 2026 Mekong TESOL International Conference · Cần Thơ`
-- `Đơn vị tổ chức: Trung tâm Anh ngữ Gia Việt · Sở GD&ĐT TP. Cần Thơ`
-- `Ngày phát hành hồ sơ: 06/02/2026 · Phiên bản: v1.0`
+- `Đơn vị tổ chức: Trung tâm Ngoại ngữ Gia Việt · Sở GD&ĐT TP. Cần Thơ`
+- Ngày phát hành hồ sơ: 28/01/2026 · Phiên bản: v1.0`
 
 ---
 

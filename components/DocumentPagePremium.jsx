@@ -697,11 +697,6 @@ export default function DocumentPagePremium() {
               <p className="text-primary/70 mb-6 leading-relaxed text-justify">
                 Thương hiệu của Quý Đối tác hiện diện nổi bật trước nhóm đối tượng mục tiêu: giáo viên, giảng viên, nhà quản lý giáo dục và các đơn vị đào tạo.
               </p>
-              <div className="mt-auto pt-6 border-t border-mt-gray-border/40">
-                <p className="text-sm text-primary/60 italic">
-                  <strong className="text-titleclr not-italic">Quyền lợi:</strong> Logo, website, fanpage, video hội trường
-                </p>
-              </div>
             </div>
             
             <div className="card-premium group flex flex-col h-full">
@@ -711,11 +706,6 @@ export default function DocumentPagePremium() {
                 Tạo nền tảng cho các trao đổi chuyên môn, mở rộng hợp tác lâu dài giữa
                 nhà trường, tổ chức giáo dục và doanh nghiệp.
               </p>
-              <div className="mt-auto pt-6 border-t border-mt-gray-border/40">
-                <p className="text-sm text-primary/60 italic">
-                  <strong className="text-titleclr not-italic">Quyền lợi:</strong> Quầy triển lãm, Gala Dinner, networking
-                </p>
-              </div>
             </div>
             
             <div className="card-premium group flex flex-col h-full">
@@ -724,11 +714,6 @@ export default function DocumentPagePremium() {
               <p className="text-primary/70 mb-6 leading-relaxed text-justify">
                 Lan toả dấu ấn thương hiệu qua những phiên chia sẻ học thuật và nội dung cập nhật xu hướng giáo dục: kỹ năng, cảm xúc và kết nối.
               </p>
-              <div className="mt-auto pt-6 border-t border-mt-gray-border/40">
-                <p className="text-sm text-primary/60 italic">
-                  <strong className="text-titleclr not-italic">Quyền lợi:</strong> Tài trợ phiên báo cáo, giải thưởng, học liệu
-                </p>
-              </div>
             </div>
             
             <div className="card-premium group flex flex-col h-full">
@@ -738,11 +723,6 @@ export default function DocumentPagePremium() {
                 Booth/leaflet/video giúp đơn vị giới thiệu học liệu, giải pháp hoặc đề
                 án đào tạo phù hợp với bối cảnh hội nghị.
               </p>
-              <div className="mt-auto pt-6 border-t border-mt-gray-border/40">
-                <p className="text-sm text-primary/60 italic">
-                  <strong className="text-titleclr not-italic">Quyền lợi:</strong> Booth, leaflet, video theo gói
-                </p>
-              </div>
             </div>
           </div>
         </div>
@@ -854,7 +834,6 @@ export default function DocumentPagePremium() {
                     <p className="text-sm text-primary/70">Mở đăng ký</p>
                   </div>
                   <div className="hidden md:block absolute z-50 left-1/2 -translate-x-1/2 top-14 w-[320px] bg-white border border-mt-gray-border/60 rounded-xl p-4 shadow-xl opacity-0 group-hover:opacity-100 group-hover:-translate-y-2 transition-all pointer-events-none">
-                    <p className="text-sm text-primary/80"><strong className="text-titleclr">Early bird:</strong> 02/04/2026 - 30/05/2026</p>
                     <p className="text-sm text-primary/80"><strong className="text-titleclr">Final registration:</strong> 31/05/2026 - 20/06/2026</p>
                   </div>
                 </div>
@@ -957,7 +936,7 @@ export default function DocumentPagePremium() {
                     Được thành lập từ năm 2009 và đã khẳng định được uy tín trong việc đào tạo tiếng Anh cho học sinh, sinh viên và phụ huynh tại Đồng bằng Sông Cửu Long. Với hơn 4.000 học viên thường xuyên theo học và hơn 150 giáo viên, Gia Việt là một trong những đơn vị đào tạo tiếng Anh hàng đầu trong khu vực. Định hướng phát triển lâu dài của Trung tâm là kết nối nhu cầu thực tiễn địa phương với xu thế giáo dục toàn cầu, thông qua các chương trình đào tạo tiếng Anh thiết thực và gắn với trải nghiệm thực tế.
                   </p>
                   <p className="text-primary/80 leading-relaxed mt-4 text-justify">
-                    Hội nghị Mekong TESOL đã được Trung tâm ngoại ngữ Gia Việt khởi xướng từ năm 2016 (lần 1) và được tổ chức thường xuyên với tần suất 2 năm 1 lần qua các năm. Trong việc tổ chức Hội nghị Quốc tế Mekong TESOL, Gia Việt đảm nhận vai trò điều phối, phối hợp chặt chẽ với các đơn vị đồng tổ chức trong việc xây dựng kế hoạch, mời diễn giả, theo dõi tiến độ triển khai, thực hiện các thủ tục pháp lý và tổ chức các hoạt động chuyên môn, chi trả kinh phí tổ chức hội nghị. Đồng thời, Trung tâm chịu trách nhiệm tổng hợp và báo cáo kết quả hội nghị.
+                    Hội nghị Mekong TESOL đã được Trung tâm Ngoại ngữ Gia Việt khởi xướng từ năm 2016 (lần 1) và được tổ chức thường xuyên với tần suất 2 năm 1 lần qua các năm. Trong việc tổ chức Hội nghị Quốc tế Mekong TESOL, Gia Việt đảm nhận vai trò điều phối, phối hợp chặt chẽ với các đơn vị đồng tổ chức trong việc xây dựng kế hoạch, mời diễn giả, theo dõi tiến độ triển khai, thực hiện các thủ tục pháp lý và tổ chức các hoạt động chuyên môn, chi trả kinh phí tổ chức hội nghị. Đồng thời, Trung tâm chịu trách nhiệm tổng hợp và báo cáo kết quả hội nghị.
                   </p>
                   <div className="card bg-white/60 border-mt-gray-border/60 mt-6">
                     <div className="h-44 rounded-xl overflow-hidden">
@@ -1351,7 +1330,7 @@ export default function DocumentPagePremium() {
           <h2 className="section-title relative z-10 pb-2 leading-tight">Diễn giả chính (Keynote Speakers)</h2>
           <p className="section-subtitle relative z-10 pb-1">Danh sách dự kiến</p>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="card-premium group">
               <div className="rounded-2xl overflow-hidden border border-mt-gray-border/60">
                 <div className="h-56 bg-gradient-to-br from-titleclr/10 to-accent/10 flex items-center justify-center relative">
@@ -1380,7 +1359,7 @@ export default function DocumentPagePremium() {
               <div className="rounded-2xl overflow-hidden border border-mt-gray-border/60">
                 <div className="h-56 bg-gradient-to-br from-titleclr/10 to-accent/10 flex items-center justify-center relative">
                   <img
-                    src="/images/keynote/ika-lestari-damayanti.jpg"
+                    src="/images/keynote/ika-lestari-damayanti.png"
                     alt="GS. Ika Lestari Damayanti"
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -1402,10 +1381,26 @@ export default function DocumentPagePremium() {
 
             <div className="card-premium group">
               <div className="rounded-2xl overflow-hidden border border-mt-gray-border/60">
+                <div className="h-56 bg-gradient-to-br from-titleclr/10 to-accent/10 relative">
+                  <img 
+                    src="/images/keynote/nguyen-thu-le-hang.jpg" 
+                    alt="Tiến sĩ Nguyễn Thu Lệ Hằng" 
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+              </div>
+              <div className="pt-6 text-center">
+                <h3 className="mb-2 text-lg font-bold text-titleclr">Tiến sĩ Nguyễn Thu Lệ Hằng</h3>
+                <p className="text-primary/70">Đại học Ngoại ngữ - Đại học Quốc gia Hà Nội</p>
+              </div>
+            </div>
+
+            <div className="card-premium group">
+              <div className="rounded-2xl overflow-hidden border border-mt-gray-border/60">
                 <div className="h-56 bg-gradient-to-br from-titleclr/10 to-accent/10 flex items-center justify-center relative">
                   <img
-                    src="/images/keynote/pham-thi-hong-nhung.jpg"
-                    alt="PGS.TS Phạm Thị Hồng Nhung"
+                    src="/images/keynote/erika-matrugIio.jpg"
+                    alt="TS. Erika Matruglio"
                     className="w-full h-full object-cover"
                     onError={(e) => {
                       e.currentTarget.style.display = 'none';
@@ -1419,8 +1414,8 @@ export default function DocumentPagePremium() {
                 </div>
               </div>
               <div className="pt-6 text-center">
-                <h3 className="mb-2 text-lg font-bold text-titleclr">Phó giáo sư - Tiến sĩ Phạm Thị Hồng Nhung</h3>
-                <p className="text-primary/70">Trường Đại học Ngoại ngữ - Đại học Huế</p>
+                <h3 className="mb-2 text-lg font-bold text-titleclr">Tiến sĩ Erika Matruglio</h3>
+                <p className="text-primary/70">Trường Sư phạm | Khoa Khoa học Xã hội – Đại học Wollongong</p>
               </div>
             </div>
           </div>
@@ -1534,7 +1529,7 @@ export default function DocumentPagePremium() {
       <section className="section-padding bg-white" id="hinhanh">
         <div className="container-custom">
           <h2 className="section-title relative z-10 pb-2 leading-tight">Hình ảnh Mekong TESOL các kỳ trước</h2>
-          <p className="section-subtitle relative z-10 pb-1">Khoảnh khắc đáng nhớ từ kỳ hội nghị Mekong TESOL lần 3 năm 2023</p>
+          <p className="section-subtitle relative z-10 pb-1">Khoảnh khắc đáng nhớ từ kỳ hội nghị Mekong TESOL năm 2023</p>
 
           <div
             className="relative"
@@ -1732,7 +1727,7 @@ export default function DocumentPagePremium() {
           <div className="border-t border-white/20 pt-8 text-center space-y-2">
             <p className="text-white/75">© 2026 Mekong TESOL International Conference · Cần Thơ</p>
             <p className="text-white/70">Đơn vị tổ chức: Trung tâm Ngoại ngữ Gia Việt · Sở GD&amp;ĐT TP. Cần Thơ · Trường Đại học Wollongong</p>
-            <p className="text-white/70">Ngày phát hành hồ sơ: 06/02/2026 · Phiên bản: v1.0</p>
+            <p className="text-white/70">Ngày phát hành hồ sơ: 28/01/2026 · Phiên bản: v1.0</p>
           </div>
         </div>
       </footer>

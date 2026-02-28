@@ -53,7 +53,7 @@ Thông tin chi tiết về Hội nghị cũng như Kế hoạch tài trợ sẽ 
 Rất mong nhận được sự quan tâm và hợp tác quý báu của Quý vị.  
 Trân trọng cảm ơn!
 
-**Cần Thơ, ngày 06 tháng 02 năm 2026**  
+**Cần Thơ, ngày 28 tháng 01 năm 2026**  
 **BAN TỔ CHỨC HỘI NGHỊ**
 
 ---
@@ -76,7 +76,6 @@ Tên tiếng Việt: “Hơn cả ngôn ngữ: Trao quyền cho người học q
 - Thông báo kết quả chấp nhận bài báo cáo: 15/03/2026  
 - Diễn giả xác nhận báo cáo: 31/03/2026  
 - Mở cổng đăng ký tham dự hội thảo: 02/04/2026 – 20/06/2026  
-  - Early bird: 02/04/2026 - 30/05/2026  
   - Final registration: 31/05/2026 - 20/06/2026  
 - Thông báo chương trình chính thức của hội nghị: 01/07/2026  
 - Hội thảo chuyên đề và các tập huấn trước hội nghị: 19/07/2026  
@@ -89,6 +88,7 @@ Tên tiếng Việt: “Hơn cả ngôn ngữ: Trao quyền cho người học q
 1. Giáo sư Rob Waring: Trường Đại học Khoa học Xã hội và Nhân văn, Đại học Quốc gia Thành phố Hồ Chí Minh  
 2. Giáo sư Ika Lestari Damayanti: Trường Đại học Giáo dục Indonesia
 3. Phó giáo sư - Tiến sĩ Phạm Thị Hồng Nhung: Trường Đại học Ngoại ngữ - Đại học Huế  
+4. Tiến sĩ Erika Matruglio: Trường Sư phạm | Khoa Khoa học Xã hội – Đại học Wollongong  
 
 ---
 

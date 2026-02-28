@@ -177,7 +177,7 @@ export default function InvitationPage() {
               <p className="mt-2 font-semibold">Trân trọng cảm ơn!</p>
 
               <div className="mt-8">
-                <p className="font-semibold text-titleclr">Cần Thơ, ngày 06 tháng 02 năm 2026</p>
+                <p className="font-semibold text-titleclr">Cần Thơ, ngày 28 tháng 01 năm 2026</p>
                 <p className="font-bold text-titleclr">BAN TỔ CHỨC HỘI NGHỊ</p>
               </div>
             </div>

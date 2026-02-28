@@ -589,8 +589,8 @@ img {
 
 .keynote-grid {
     display: grid;
-    grid-template-columns: 1fr;
-    gap: var(--spacing-sm);
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: var(--spacing-md);
     margin-top: var(--spacing-md);
 }
 
@@ -598,6 +598,18 @@ img {
     background: var(--color-bg-white);
     border: 2px solid var(--color-border);
     padding: var(--spacing-md);
+    border-radius: 12px;
+    transition: all 0.3s ease;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.keynote-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    border-color: var(--color-primary);
 }
 
 .keynote-card h3 {
@@ -1950,7 +1962,6 @@ th {
     .timeline-year-badge {
         width: 80px;
         height: 80px;
-        font-size: 1.5rem;
     }
     
     .timeline-stats {
@@ -1962,7 +1973,8 @@ th {
     }
 
     .keynote-grid {
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: var(--spacing-lg);
     }
 
     .organizers-compact {
@@ -1976,11 +1988,24 @@ th {
     .year-highlight {
         font-size: 3rem;
     }
+    
+    .keynote-card {
+        padding: var(--spacing-lg);
+    }
 }
 
 @media (min-width: 992px) {
     .participant-grid {
         grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .keynote-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: var(--spacing-xl);
+    }
+    
+    .keynote-card {
+        padding: var(--spacing-xl);
     }
 }
 

@@ -150,9 +150,6 @@ export default function DocumentPage() {
                 Thương hiệu được ghi nhận trong một sự kiện tập trung đúng tệp: giáo
                 viên, giảng viên, nhà quản lý giáo dục và các đơn vị đào tạo.
               </p>
-              <p className="card-evidence">
-                <em>Quyền lợi: Logo, website, fanpage, video hội trường</em>
-              </p>
             </div>
             <div className="card">
               <div className="card-icon">🤝</div>
@@ -160,9 +157,6 @@ export default function DocumentPage() {
               <p>
                 Tạo nền tảng cho các trao đổi chuyên môn, mở rộng hợp tác lâu dài giữa
                 nhà trường, tổ chức giáo dục và doanh nghiệp.
-              </p>
-              <p className="card-evidence">
-                <em>Quyền lợi: Quầy triển lãm, Gala Dinner, networking</em>
               </p>
             </div>
             <div className="card">
@@ -172,9 +166,6 @@ export default function DocumentPage() {
                 Gắn thương hiệu với các phiên báo cáo, hoạt động học thuật và nội dung
                 cập nhật xu hướng (kỹ năng, cảm xúc, kết nối).
               </p>
-              <p className="card-evidence">
-                <em>Quyền lợi: Tài trợ phiên báo cáo, giải thưởng, học liệu</em>
-              </p>
             </div>
             <div className="card">
               <div className="card-icon">🎓</div>
@@ -182,9 +173,6 @@ export default function DocumentPage() {
               <p>
                 Booth/leaflet/video giúp đơn vị giới thiệu học liệu, giải pháp hoặc đề
                 án đào tạo một cách phù hợp với bối cảnh hội nghị.
-              </p>
-              <p className="card-evidence">
-                <em>Quyền lợi: Booth, leaflet, video theo gói</em>
               </p>
             </div>
           </div>
@@ -597,6 +585,10 @@ export default function DocumentPage() {
             <div className="keynote-card">
               <h3>PGS.TS Phạm Thị Hồng Nhung</h3>
               <p>Trường Đại học Ngoại ngữ - Đại học Huế</p>
+            </div>
+            <div className="keynote-card">
+              <h3>TS. Erika Matruglio</h3>
+              <p>Trường Sư phạm | Khoa Khoa học Xã hội – Đại học Wollongong</p>
             </div>
           </div>
         </div>
@@ -1221,7 +1213,7 @@ export default function DocumentPage() {
           </div>
 
           <div className="footer-bottom">
-            <p>© 2026 Mekong TESOL · Cần Thơ, ngày 06 tháng 02 năm 2026</p>
+            <p>© 2026 Mekong TESOL · Cần Thơ, ngày 28 tháng 01 năm 2026</p>
           </div>
         </div>
       </footer>

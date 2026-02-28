@@ -480,20 +480,32 @@ class Flipbook {
                 content: `
                     <div class="speakers-list">
                         <div class="speaker-item">
-                            <div class="speaker-name">Giáo sư Rob Waring</div>
-                            <div class="speaker-affiliation">Đại học Notre Dame Seishin Women's University, Japan</div>
+                            <img src="/images/keynote/rob-waring.jpg" alt="Rob Waring" class="speaker-photo">
+                            <div class="speaker-info">
+                                <div class="speaker-name">Giáo sư Rob Waring</div>
+                                <div class="speaker-affiliation">Đại học Notre Dame Seishin Women's University, Japan</div>
+                            </div>
                         </div>
                         <div class="speaker-item">
-                            <div class="speaker-name">Giáo sư Ika Lestari Damayanti</div>
-                            <div class="speaker-affiliation">Universitas Pendidikan Indonesia, Indonesia</div>
+                            <img src="/images/keynote/ika-lestari-damayanti.png" alt="Ika Lestari Damayanti" class="speaker-photo">
+                            <div class="speaker-info">
+                                <div class="speaker-name">Giáo sư Ika Lestari Damayanti</div>
+                                <div class="speaker-affiliation">Universitas Pendidikan Indonesia, Indonesia</div>
+                            </div>
                         </div>
                         <div class="speaker-item">
-                            <div class="speaker-name">Phó giáo sư - Tiến sĩ Phạm Thị Hồng Nhung</div>
-                            <div class="speaker-affiliation">Hiệu trưởng ĐH Ngoại ngữ Huế</div>
+                            <img src="/images/keynote/nguyen-thu-le-hang.jpg" alt="Phạm Thị Hồng Nhung" class="speaker-photo">
+                            <div class="speaker-info">
+                                <div class="speaker-name">Phó giáo sư - Tiến sĩ Phạm Thị Hồng Nhung</div>
+                                <div class="speaker-affiliation">Hiệu trưởng ĐH Ngoại ngữ Huế</div>
+                            </div>
                         </div>
                         <div class="speaker-item">
-                            <div class="speaker-name">Speaker của RELO</div>
-                            <div class="speaker-affiliation">Regional English Language Office</div>
+                            <img src="/images/keynote/erika-matrugIio.jpg" alt="Erika Matruglio" class="speaker-photo">
+                            <div class="speaker-info">
+                                <div class="speaker-name">Tiến sĩ Erika Matruglio</div>
+                                <div class="speaker-affiliation">Trường Sư phạm | Khoa Khoa học Xã hội – Đại học Wollongong</div>
+                            </div>
                         </div>
                     </div>
                 `
@@ -639,7 +651,7 @@ class Flipbook {
                         <p><strong>Đơn vị phụ trách chuyên môn và tổ chức</strong></p>
                         <p>Trung tâm Ngoại ngữ Gia Việt đóng vai trò là đơn vị chịu trách nhiệm tổ chức chính của Hội nghị. Được thành lập từ năm 2009 và đã khẳng định được uy tín trong việc đào tạo tiếng Anh cho học sinh, sinh viên và phụ huynh tại Đồng bằng Sông Cửu Long.</p>
                         <p>Với hơn 4.000 học viên thường xuyên theo học và hơn 150 giáo viên, Gia Việt là một trong những đơn vị đào tạo tiếng Anh hàng đầu trong khu vực.</p>
-                        <p>Hội nghị MEKONG TESOL đã được Trung tâm Gia Việt khởi xướng từ năm 2016 và được tổ chức thường xuyên với tần suất 2 năm 1 lần qua các năm.</p>
+                        <p>Hội nghị MEKONG TESOL đã được Trung tâm Ngoại ngữ Gia Việt khởi xướng từ năm 2016 và được tổ chức thường xuyên với tần suất 2 năm 1 lần qua các năm.</p>
                     </div>
                 `
             },

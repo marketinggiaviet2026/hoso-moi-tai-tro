@@ -132,7 +132,6 @@ export default function DocumentPageTailwind() {
                 viên, giảng viên, nhà quản lý giáo dục và các đơn vị đào tạo.
               </p>
               <p className="text-sm text-primary/60 pt-4 border-t border-mt-gray-border italic">
-                Quyền lợi: Logo, website, fanpage, video hội trường
               </p>
             </div>
             <div className="card group">
@@ -143,7 +142,6 @@ export default function DocumentPageTailwind() {
                 nhà trường, tổ chức giáo dục và doanh nghiệp.
               </p>
               <p className="text-sm text-primary/60 pt-4 border-t border-mt-gray-border italic">
-                Quyền lợi: Quầy triển lãm, Gala Dinner, networking
               </p>
             </div>
             <div className="card group">
@@ -154,18 +152,16 @@ export default function DocumentPageTailwind() {
                 cập nhật xu hướng (kỹ năng, cảm xúc, kết nối).
               </p>
               <p className="text-sm text-primary/60 pt-4 border-t border-mt-gray-border italic">
-                Quyền lợi: Tài trợ phiên báo cáo, giải thưởng, học liệu
               </p>
             </div>
             <div className="card group">
               <div className="text-5xl mb-4">🎓</div>
               <h3 className="mb-4">Tiếp cận trực tiếp người tham dự tại sự kiện</h3>
               <p className="text-primary/70 mb-4">
-                Booth/leaflet/video giúp đơn vị giới thiệu học liệu, giải pháp hoặc đề
+                Quầy triển lãm, tờ rơi, video giúp đơn vị giới thiệu học liệu, giải pháp hoặc đề
                 án đào tạo một cách phù hợp với bối cảnh hội nghị.
               </p>
               <p className="text-sm text-primary/60 pt-4 border-t border-mt-gray-border italic">
-                Quyền lợi: Booth, leaflet, video theo gói
               </p>
             </div>
           </div>
@@ -237,10 +233,6 @@ export default function DocumentPageTailwind() {
             <div className="card text-center">
               <span className="block font-bold text-titleclr mb-2">15/03/2026</span>
               <p className="text-sm">Thông báo kết quả chấp nhận bài</p>
-            </div>
-            <div className="card text-center">
-              <span className="block font-bold text-titleclr mb-2">02/04 – 30/05/2026</span>
-              <p className="text-sm">Đăng ký Early Bird</p>
             </div>
             <div className="card text-center">
               <span className="block font-bold text-titleclr mb-2">31/05 – 20/06/2026</span>
